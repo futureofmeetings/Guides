@@ -10,11 +10,11 @@ If you'd like to develop on and build the Climate Data Guidelines book, you shou
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 - (Recommended) Remove the existing `Governance/_build/` directory
    You can do this with
-   `jupyter-book clean Governance/`
-   `jupyter-book clean Governance/ -all` will also remove the cache
-- Run `jupyter-book build Governance/`
+   `jupyter-book clean Guides/`
+   `jupyter-book clean Guides/ -all` will also remove the cache
+- Run `jupyter-book build Guides/`
 
-A fully-rendered HTML version of the book will be built in `Governance/_build/html/`.
+A fully-rendered HTML version of the book will be built in `Guides/_build/html/`.
 
 ### Hosting the book
 
@@ -23,7 +23,7 @@ The html version of the book is hosted on the `gh-pages` branch of this repo. A 
 If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
 
 - Navigating to your local build; and running,
-- `ghp-import -n -p -f Governance/_build/html`
+- `ghp-import -n -p -f Guides/_build/html`
 
 This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
 
@@ -31,22 +31,15 @@ NB this should be now automated using github action defined in .github/workflows
 Any commit to the main branch should trigger thsi action
 
 ## Structure
-Currently the book is comprised of 7 parts
+The structure of this book is still to be determined.
 
-1) Guidelines to create a dataset
-2) Guidelines to publish a dataset
-3) Guidelines to update a dataset (new versions and errata)
-4) Guidelines to retire a dataset
-5) A section covering data management related concepts: conventions, controlled vocabularies, DMPs etc
-6) A section covering technical aspects of data management: compression, chunking, interaction between metadata attributes and software, directory structure, filenames etc.
-7) An appendix section for extra materials 
+The plan is that the book will host guides and reviews of various online meeting and collaboration platforms.
 
-Only the top level of Parts 5 and 6 will be shown in the main table of contents on the book sidebar. So a table of contents is available in the first page of the book to function as an index.
-The Guidelines (parts 1-4) will have refernce to the concepts and technical information where appropriate. 
+This section of the README should be updated once the book structure is determined.
 
 ## Contributors
 
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/ACDguide/Governance/graphs/contributors).
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/futureofmeetings/Guides/graphs/contributors).
 
 ## Credits
 

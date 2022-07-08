@@ -1,0 +1,36 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+format: jb-book
+root: introduction
+parts:
+  - caption: Creating climate data 
+    chapters:
+    - file: create/create-intro
+  - caption: Publishing climate data
+    chapters:
+    - file: publish/publish-intro
+    - file: publish/publish-options
+      sections:
+      - file: publish/publish-nci-geonetwork
+      - file: publish/publish-esgf
+      - file: publish/publish-csiro-dap
+      - file: publish/publish-zenodo
+    - file: publish/publish-examples
+    - file: publish/journals.md
+  - caption: About us
+    chapters:
+    - file: about-us/working-group-governance
+    - file: about-us/goals
+    - file: about-us/how-to-contribute
+  - caption: Technical guide 
+    maxdepth: 1
+    chapters:
+    - file: tech/tech-intro.md
+      sections:
+      - file: tech/conventions.md
+      - file: tech/drs.md
+        sections:
+        - file: tech/filenames.md
+      - file: tech/keywords.md
+      - file: tech/versioning.md
