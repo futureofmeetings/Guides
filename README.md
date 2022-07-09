@@ -8,7 +8,7 @@ If you'd like to develop on and build the Climate Data Guidelines book, you shou
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- (Recommended) Remove the existing `Governance/_build/` directory
+- (Recommended) Remove the existing `Guides/_build/` directory
    You can do this with
    `jupyter-book clean Guides/`
    `jupyter-book clean Guides/ -all` will also remove the cache

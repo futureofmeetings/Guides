@@ -1,3 +1,3 @@
 # Technical tips
 
-We are collecting here information on technical aspects of data management, including practical examples.
+This chapter needs to be populated, currently contains demo contents from [Australian Climate Data Guide Governance book](https://acdguide.github.io/Governance/introduction.html)

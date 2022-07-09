@@ -4,23 +4,21 @@
 format: jb-book
 root: introduction
 parts:
-  - caption: Creating climate data 
+  - caption: Introduction 
     chapters:
-    - file: create/create-intro
-  - caption: Publishing climate data
+    - file: intro/intro-1
+  - caption: Platfrom guides
     chapters:
-    - file: publish/publish-intro
-    - file: publish/publish-options
+    - file: guides/guides-intro
+    - file: guides/guides-options
       sections:
-      - file: publish/publish-nci-geonetwork
-      - file: publish/publish-esgf
-      - file: publish/publish-csiro-dap
-      - file: publish/publish-zenodo
-    - file: publish/publish-examples
-    - file: publish/journals.md
+      - file: guides/guide-altspace
+      - file: guides/guide-gather
+      - file: guides/guide-glue
+      - file: guides/guide-teams
+    - file: guides/guides-summary
   - caption: About us
     chapters:
-    - file: about-us/working-group-governance
     - file: about-us/goals
     - file: about-us/how-to-contribute
   - caption: Technical guide 
