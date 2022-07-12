@@ -19,6 +19,7 @@ A fully-rendered HTML version of the book will be built in `Guides/_build/html/`
 ### Hosting the book
 
 The html version of the book is hosted on the `gh-pages` branch of this repo. A GitHub actions workflow has been created that automatically builds and pushes the book to this branch on a push or pull request to main.
+The built and deployed version of the book in the `gh-pages` branch is rendered at [https://futureofmeetings.github.io/Guides/introduction.html](https://futureofmeetings.github.io/Guides/introduction.html).
 
 If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
 
@@ -28,7 +29,7 @@ If you wish to disable this automation, you may remove the GitHub actions workfl
 This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
 
 NB this should be now automated using github action defined in .github/workflows/deploy.yml
-Any commit to the main branch should trigger thsi action
+Any commit to the main branch should trigger this action.
 
 ## Structure
 The structure of this book is still to be determined.
