@@ -1,10 +1,10 @@
-# Climate data guidelines  
+# TFOM Platform Guides  
 
 ## Usage
 
 ### Building the book
 
-If you'd like to develop on and build the Climate Data Guidelines book, you should:
+If you'd like to develop on and build the TFOM Platform Guides book, you should:
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
