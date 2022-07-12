@@ -7,7 +7,7 @@ This book, '**[TFOM Platform Guides](https://futureofmeetings.github.io/Guides/)
 
 These guides are intended to provide an easily findable and updateable reference for [TFOM](https://tfom.org) members, as well as useful and relevant information for meeting planners in the academic/research context. 
 
-If you'd like to get involved, please open an issue, or reach out to us at [hello@tfom.org](mailto:hello@tfom.org)!
+If you'd like to get involved, please [open an issue](https://github.com/futureofmeetings/Guides/issues/new/choose), or reach out to us at [hello@tfom.org](mailto:hello@tfom.org)!
 
 
 ## Chapter index
