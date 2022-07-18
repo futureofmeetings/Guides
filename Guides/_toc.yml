@@ -7,7 +7,7 @@ parts:
   - caption: Introduction 
     chapters:
     - file: intro/intro-1
-  - caption: Platfrom guides
+  - caption: Platform guides
     chapters:
     - file: guides/guides-intro
     - file: guides/guides-options
