@@ -12,4 +12,6 @@ We focus on platforms we are familiar with that are or could be used for virtual
 * [Gather](guide-gather.md)
 * [Glue](guide-glue.md)
 * [Teams](guide-teams.md)
+* Orbital
+* Spatial
 * [Platforms summary](guides-summary.md)
